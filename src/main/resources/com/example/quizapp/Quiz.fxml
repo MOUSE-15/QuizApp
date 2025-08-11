@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.quizapp.QuizController">
+    <children>
+        <VBox alignment="CENTER" spacing="20.0"
+              AnchorPane.topAnchor="20.0" AnchorPane.bottomAnchor="20.0"
+              AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+            <children>
+                <Label fx:id="questionLabel" text="Question goes here" wrapText="true" style="-fx-font-size: 18px;"/>
+
+                <VBox spacing="10">
+                    <children>
+                        <RadioButton fx:id="optionA" text="Option A"/>
+                        <RadioButton fx:id="optionB" text="Option B"/>
+                        <RadioButton fx:id="optionC" text="Option C"/>
+                    </children>
+                </VBox>
+
+                <Button fx:id="nextButton" text="Next" onAction="#nextQuestion" prefWidth="100"/>
+            </children>
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+        </VBox>
+    </children>
+</AnchorPane>

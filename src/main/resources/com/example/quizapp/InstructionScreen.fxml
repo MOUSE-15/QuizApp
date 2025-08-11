@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.quizapp.InstructionScreenController">
+   <children>
+      <Button layoutX="288.0" layoutY="457.0" mnemonicParsing="false" onAction="#onClickStart" prefHeight="70.0" prefWidth="225.0" text="START">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="51.0" layoutY="102.0" prefHeight="184.0" prefWidth="699.0" text="NOTE: Each correct answer carries 5marks" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="44.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
